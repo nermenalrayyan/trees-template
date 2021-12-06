@@ -1,0 +1,181 @@
+// Start Footer
+footer
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 2px solid var(--color-green1);
+
+
+    .contact
+    {
+        padding-top: 40px;
+
+        h6
+        {
+            color: var(--color-white);
+            margin: 0 0 3% 0 !important;
+        }
+
+
+        span, p
+        {
+            color: var(--color-white);
+        }
+
+        ul
+        {
+            padding-left: 0;
+            align-items: baseline;
+            margin-bottom: 1.2rem;
+
+            i
+            {
+                font-size: 11px;
+                margin-right: 8px;
+                color: var(--color-white);
+            }
+
+            p
+            {
+                line-height: 10px;
+            }
+        }
+
+        .contact-items
+        {
+            padding-left: 10px;
+        }
+
+        .contact-items:nth-of-type(1),
+        .contact-items:nth-of-type(2)
+        {
+            a
+            {
+                // text-transform: lowercase;
+                color: var(--color-yellow2);
+                font-size: 15px;
+        
+                &:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .contact-items:nth-of-type(3)
+        {
+            ul
+            {
+                margin-top: 20px;
+
+                li
+                {
+                    margin-bottom: 5px;
+                    // width: 67px;
+
+                    &:hover
+                    {
+                        color: var(--color-green1) !important;
+                    }
+
+                    a
+                    {
+                        font-size: 13px;
+                        display: inline-flex;
+
+                        i
+                        {
+                            font-size: 20px;
+                        }    
+                    }
+
+                }
+            }
+        
+            .input-email
+            {
+                width: 197px;
+                position: relative;
+        
+                input
+                {
+                    margin: 0;
+                    padding: 0;
+                    outline: none;
+                    width: 100%;
+                }
+        
+                button
+                {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    z-index: 2;
+                    cursor: pointer;
+                    color: var(--color-white);
+                    background-color: var(--color-green1);
+                    transform: translateX(2px);
+        
+                    &:hover
+                    {
+                        background-color: var(--color-gray2);
+                        color: var(--color-white);
+                    }
+                }
+        
+                input, button
+                {
+                    border: none;
+                    border-radius: 15px;
+                    height: 25px;
+                    padding: 0 10px;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .copyright
+    {
+        border-top: 2px solid var(--color-green1);
+        padding: 1rem 0;
+        text-align: center;
+        // height: 22px;
+
+        ul
+        {
+            margin-bottom: 0;
+            padding-left: 0 ;
+
+            li
+            {
+                margin-right: 20px;
+    
+                a
+                {
+                    font-size: 11px;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                    
+                    &:hover
+                    {
+                        color: var(--color-yellow2);
+                    }
+                }
+            }
+        }
+
+        a, span
+        {
+            color: var(--color-white) !important;
+        }
+
+        span
+        {
+            font-size: 13px;
+        }
+    }
+}
+// End Footer

@@ -1,0 +1,531 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 1000px;
+}
+
+/* Start Link */
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.transparent-hover:hover {
+  opacity: 0.8;
+}
+
+.link {
+  padding: 10px;
+}
+
+.more {
+  text-align: center;
+}
+
+/* End Link */
+/* Start Text */
+p, h1, h2, h3, h4, a, button, .button-1, .button-2 {
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+  margin-top: 10px;
+  /* letter-spacing: 1px; */
+  color: var(--color-gray1);
+}
+
+p, h5, h6 {
+  text-align: left;
+}
+
+h1 {
+  color: var(--font-color6);
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+h5, h6 {
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-bottom: 15px;
+}
+
+h6 {
+  color: var(--color-gray2);
+  margin: 5% 0 1% 0;
+}
+
+/* End Text */
+hr {
+  height: 2px !important;
+  color: var(--color-green1);
+  margin: 22px 0;
+}
+
+button, select {
+  outline: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+a, button {
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+img {
+  border-radius: 20px;
+}
+
+main {
+  margin: 5% 0;
+}
+
+main .item {
+  background-color: var(--bg-color2);
+  border: 3px solid var(--border-color2);
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+main .item.item-small {
+  width: 60%;
+  position: relative;
+  left: 21%;
+}
+
+main .item section {
+  border: 2px solid var(--border-color2);
+  padding: 0;
+  border-radius: 25px;
+  background-color: var(--bg-color3);
+  margin: 1rem;
+  width: 97%;
+}
+
+main .item section img {
+  width: 100%;
+  height: 100%;
+}
+
+main .item section .text-main {
+  padding: 1rem;
+  height: 100%;
+}
+
+main .item section .text-main p {
+  line-height: 22px;
+}
+
+.social-links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+.social-links li {
+  margin-right: 1.5rem;
+  width: 30px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.social-links li a {
+  font-size: 28px !important;
+}
+
+.social-links li a:hover {
+  font-size: 40px !important;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/wood.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/wood.jpg);
+  height: 20vh;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20vh;
+}
+
+header .container a {
+  color: var(--color-white);
+}
+
+header .container .logo span:nth-of-type(1) {
+  color: var(--color-yellow1);
+}
+
+header .container .logo span:nth-of-type(2) {
+  color: var(--color-green1);
+}
+
+header .container .logo h1 {
+  font-size: 2.2rem;
+  margin-left: 7px;
+}
+
+header .container .logo p {
+  text-transform: uppercase;
+  font-size: 11.8px;
+  margin-left: 14px;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  margin-top: 28px;
+}
+
+header .container .logo h1, header .container .logo p {
+  line-height: 0.3;
+  text-align: left;
+}
+
+header .container .header-links .donation-link {
+  position: absolute;
+  top: 0;
+  right: 18%;
+  font-size: 23px;
+  border: 3px solid white;
+  border-radius: 0 0 50px 50px;
+  border-top: none;
+  padding: 3px 15px;
+  text-transform: uppercase;
+  background: var(--color-green1);
+  -webkit-transition: 0.6s ea;
+  transition: 0.6s ea;
+}
+
+header .container .header-links .donation-link:hover {
+  background: #959511;
+}
+
+header .container .header-links nav {
+  min-height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .container .header-links nav a {
+  font-weight: 600;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+header .container .header-links nav a:hover {
+  color: var(--color-yellow1);
+}
+
+header .container .header-links nav .active {
+  color: var(--color-yellow1);
+}
+
+:root {
+  --color-yellow1: #dbdb08;
+  --color-yellow2: #ffbf00;
+  --color-gray1: #7f8081;
+  --color-gray2: #4e5052;
+  --color-white: #f8f9fa;
+  --color-blue: #032c56;
+  --color-orange: #d78407;
+  --color-green1: #06ad06;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c1ffcf), to(rgba(0, 0, 0, 0.2))), url(../img/tree2.png) no-repeat;
+  background: linear-gradient(#c1ffcf, rgba(0, 0, 0, 0.2)), url(../img/tree2.png) no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .items-hero {
+  color: var(--color-blue);
+  padding-left: 10%;
+  font-size: 23px;
+}
+
+.hero .items-hero p {
+  font-size: 21px !important;
+  color: var(--color-blue);
+  text-align: center;
+}
+
+.hero .items-hero h1 {
+  color: var(--color-yellow1);
+}
+
+.hero .items-hero h2, .hero .items-hero h1 {
+  font-weight: 100;
+}
+
+.hero .items-hero p, .hero .items-hero h1 {
+  text-align: left !important;
+  line-height: 0.7;
+}
+
+.articles .article-item:nth-of-type(1) img {
+  width: 100%;
+  height: 9em;
+}
+
+.articles .article-item:nth-of-type(1) h6, .articles .article-item:nth-of-type(1) p {
+  margin-left: 2%;
+}
+
+.articles .article-item:nth-of-type(1) a {
+  color: var(--color-gray2);
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.articles p {
+  width: 80%;
+  margin: 0;
+}
+
+.articles .article-item:nth-of-type(2) img {
+  width: 23%;
+  height: 6.5em;
+}
+
+.articles .article-item:nth-of-type(2) h6 {
+  margin-top: 2%;
+}
+
+.articles .article-item:nth-of-type(2) a {
+  font-size: 13px;
+  color: var(--color-orange);
+}
+
+.articles .article-item:nth-of-type(2) a:hover {
+  text-decoration: underline;
+}
+
+/*
+bootstrap 5 responsive screen sizes:
+
+* They include x-small which is between 0 and 576px.
+
+* Small, which has the sm class infix is 576px or larger. // Screens (Smaller Smartphones)
+
+* Medium, which has the md class infix is 768px or larger. // Screens (Tablets And Larger Smartphones)
+
+* Large, which has the lg class infix is 992px or larger.
+
+* Extra-large, which is infixed by xl , is 1200px or larger. // Screens (Laptops)
+
+* Extra extra large, which is infixed by xxl , is 1400px or larger. // Screens (Larger Desktops And Monitors)
+*/
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/contact-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 2px solid var(--color-green1);
+}
+
+footer .contact {
+  padding-top: 40px;
+}
+
+footer .contact h6 {
+  color: var(--color-white);
+  margin: 0 0 3% 0 !important;
+}
+
+footer .contact span, footer .contact p {
+  color: var(--color-white);
+}
+
+footer .contact ul {
+  padding-left: 0;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 1.2rem;
+}
+
+footer .contact ul i {
+  font-size: 11px;
+  margin-right: 8px;
+  color: var(--color-white);
+}
+
+footer .contact ul p {
+  line-height: 10px;
+}
+
+footer .contact .contact-items {
+  padding-left: 10px;
+}
+
+footer .contact .contact-items:nth-of-type(1) a,
+footer .contact .contact-items:nth-of-type(2) a {
+  color: var(--color-yellow2);
+  font-size: 15px;
+}
+
+footer .contact .contact-items:nth-of-type(1) a:hover,
+footer .contact .contact-items:nth-of-type(2) a:hover {
+  text-decoration: underline;
+}
+
+footer .contact .contact-items:nth-of-type(3) ul {
+  margin-top: 20px;
+}
+
+footer .contact .contact-items:nth-of-type(3) ul li {
+  margin-bottom: 5px;
+}
+
+footer .contact .contact-items:nth-of-type(3) ul li:hover {
+  color: var(--color-green1) !important;
+}
+
+footer .contact .contact-items:nth-of-type(3) ul li a {
+  font-size: 13px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+footer .contact .contact-items:nth-of-type(3) ul li a i {
+  font-size: 20px;
+}
+
+footer .contact .contact-items:nth-of-type(3) .input-email {
+  width: 197px;
+  position: relative;
+}
+
+footer .contact .contact-items:nth-of-type(3) .input-email input {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 100%;
+}
+
+footer .contact .contact-items:nth-of-type(3) .input-email button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-green1);
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+
+footer .contact .contact-items:nth-of-type(3) .input-email button:hover {
+  background-color: var(--color-gray2);
+  color: var(--color-white);
+}
+
+footer .contact .contact-items:nth-of-type(3) .input-email input, footer .contact .contact-items:nth-of-type(3) .input-email button {
+  border: none;
+  border-radius: 15px;
+  height: 25px;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+footer .copyright {
+  border-top: 2px solid var(--color-green1);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer .copyright ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+footer .copyright ul li {
+  margin-right: 20px;
+}
+
+footer .copyright ul li a {
+  font-size: 11px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+footer .copyright ul li a:hover {
+  color: var(--color-yellow2);
+}
+
+footer .copyright a, footer .copyright span {
+  color: var(--color-white) !important;
+}
+
+footer .copyright span {
+  font-size: 13px;
+}
+
+.feature-box img {
+  width: 100%;
+  height: 13em;
+}
+
+.feature-box p {
+  margin-left: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #cdcd8b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #338b64;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #256448;
+}
+/*# sourceMappingURL=style.css.map */
