@@ -118,8 +118,20 @@
         }
     }
 
+
     .gallery-nav
     {
+        li:nth-of-type(2)
+        {                
+            margin: 0 5px 0 2px;
+    
+            a
+            {
+                border: solid var(--color-gray2);
+                border-width: 0 1.9px;
+                padding: 0 5px;
+            }
+        }
 
         span
         {
@@ -162,18 +174,6 @@
             {
                 width: 200px;
             }
-
-            li:nth-of-type(2)
-            {                
-                margin: 0 5px 0 2px;
-
-                a
-                {
-                    border: solid var(--color-gray2);
-                    border-width: 0 1.9px;
-                    padding: 0 5px;
-                }
-            }
         }
 
         .move-pages
@@ -194,14 +194,10 @@
     {
         ul
         {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            // grid-template-columns: 1fr 1fr 1fr;
-
             li
             {
                 width: 23%;
+                margin-bottom: 2%;
 
                 img
                 {
@@ -212,6 +208,54 @@
                 a
                 {
                     color: var(--color-gray2);
+                }
+
+                h6, p
+                {
+                    margin-left: 2%;
+                }
+
+                p
+                {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    // Gallery Info Page
+    .gallery-info
+    {
+        img
+        {
+            width: 50%;
+            height: 500px;
+            margin-right: 4%;
+        }
+
+        .info
+        {
+            margin-top: 1%;
+
+            p:nth-of-type(3)
+            {
+                margin-bottom: 2rem;
+            }
+
+            .donation-link
+            {
+                font-size: 23px;
+                border: 3px solid var(--color-white2);
+                color: var(--color-white);
+                border-radius: 50px;
+                padding: 3px 15px;
+                text-transform: uppercase;
+                background: var(--color-green1);
+                transition: 0.6s ea;
+
+                &:hover
+                {
+                    opacity: 0.8;
                 }
             }
         }

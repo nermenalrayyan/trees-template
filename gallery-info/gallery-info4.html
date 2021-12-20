@@ -20,9 +20,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
         <!-- المصدر: https://cdnjs.com/libraries/font-awesome -->
 
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
 		
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="css/main.css">
 
 
@@ -47,10 +47,10 @@
                 <div class="col-lg-6 header-links">
                     <a href="#" class="donation-link">donate now</a>
                     <nav>
-                        <a href="index.html">home</a>
+                        <a href="../index.html">home</a>
                         <a href="#">about</a>
-                        <a href="programs.html">our programs</a>
-                        <a href="gallery.html" class="active">gallery</a>
+                        <a href="../programs.html">our programs</a>
+                        <a href="../gallery.html" class="active">gallery</a>
                         <a href="#">contact</a>
                         <a href="#">blog</a>
                     </nav>
@@ -61,73 +61,34 @@
 
 
         <!-- Start Gallery -->
-        <section class="gallery mb-0">
+        <section class="gallery">
             <div class="container">
                 <div class="gallery-nav d-flex justify-content-between">
                     <h5>gallery</h5>
-                    <div class="menu d-inline-flex col-lg-5">
-                        <span class="text-uppercase mr-3">sort by:</span>
-                        <ul class="d-inline-flex">
-                            <li><a href="#" class="selected">view all</a></li>
-                            <li><a href="#">images</a></li>
-                            <li><a href="#">videos</a></li>
-                        </ul>
-                    </div>
 
                     <div class="move-pages d-inline-flex">
-                        <span class="mr-2">pages 1 of 2</span>
                         <ul class="d-inline-flex">
-                            <li><a href="#" class="prev"><i class="fas fa-caret-left"></i></a></li>
-                            <li><a href="#" class="selected">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#" class="next"><i class="fas fa-caret-right"></i></a></li>
+                            <li><a href="#" class="prev"><i class="fas fa-caret-left mr-2"></i> prev</a></li>
+                            <li><a href="#" class="text-uppercase px-2">return to gallery</a></li>
+                            <li><a href="#" class="next">next <i class="fas fa-caret-right ml-2"></i></a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="gallery-cards">
-                    <ul class="d-flex justify-content-between flex-wrap">
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree1.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info1.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree2.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info2.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree3.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info3.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree4.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info4.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree5.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info5.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree6.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info6.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree7.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info7.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                        <li class="col-lg-3 col-sm-12">
-                            <img src="img/gallery-page/tree8.jpg" alt="">
-                            <h6><a href="gallery-info/gallery-info8.html">harum ratione ex libero</a></h6>
-                            <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
-                        </li>
-                    </ul>
+                <div class="gallery-info d-flex justify-content-between">
+                    <img src="../img/gallery-page/tree4.jpg" alt="">
+                    <div class="info">
+                        <h5>harum ratione ex libero</h5>
+                        <hr>
+                        <p>iure saepe voluptas molestias amet tempore, officia necessitatibus unde? Ratione atque molestias</p>
+
+                        <p>Inventore repellat officia minima sed consequuntur velit quam eaque numquam doloremque facere distinctio voluptates corrupti architecto eligendi qui id, in sequi enim?</p>
+
+                        <p>Tempora optio quam quis laborum numquam doloremque rerum, fugit soluta quasi expedita itaque quaerat delectus? Architecto ullam facere porro accusamus iure distinctio illum eaque nam ab voluptate, nesciunt perspiciatis molestiae possimus autem ratione sapiente dolore officiis maiores minima molestias aliquid exercitationem esse? Dolor praesentium voluptas quidem delectus dolore ratione unde?</p>
+
+                        <a href="#" class="donation-link">donate now</a>
+                    
+                    </div>
                 </div>
             </div>
         </section>

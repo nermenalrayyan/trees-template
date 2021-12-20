@@ -1,0 +1,97 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 1000px;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+/* Start Link */
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.more {
+  text-align: center;
+}
+
+/* End Link */
+/* Start Text */
+p, h1, h2, h3, h4, a, button, .button-1, .button-2 {
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+  margin-top: 10px;
+  /* letter-spacing: 1px; */
+  color: var(--color-gray1);
+}
+
+p, h5, h6 {
+  text-align: left;
+}
+
+h1 {
+  color: var(--font-color6);
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+h5, h6 {
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-bottom: 15px;
+}
+
+h6 {
+  color: var(--color-gray2);
+  margin: 5% 0 1% 0;
+}
+
+/* End Text */
+hr {
+  height: 2px !important;
+  color: var(--color-green1);
+  margin: 22px 0;
+}
+
+button, select {
+  outline: none !important;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+}
+
+a, button {
+  transition: 0.6s;
+}
+
+img {
+  border-radius: 20px;
+}
+img:hover {
+  opacity: 0.8;
+}
