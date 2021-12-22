@@ -1,6 +1,9 @@
 header
 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/wood.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/wood.jpg);    
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
     height: 20vh;
     // color: var(--color-white);
     

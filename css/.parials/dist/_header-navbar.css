@@ -1,0 +1,68 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/wood.jpg);
+  background-size: cover;
+  height: 20vh;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+}
+header .container a {
+  color: var(--color-white);
+}
+header .container .logo span:nth-of-type(1) {
+  color: var(--color-yellow1);
+}
+header .container .logo span:nth-of-type(2) {
+  color: var(--color-green1);
+}
+header .container .logo h1 {
+  font-size: 2.2rem;
+  margin-left: 7px;
+}
+header .container .logo p {
+  text-transform: uppercase;
+  font-size: 11.8px;
+  margin-left: 14px;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  margin-top: 28px;
+}
+header .container .logo h1, header .container .logo p {
+  line-height: 0.3;
+  text-align: left;
+}
+header .container .header-links .donation-link {
+  position: absolute;
+  top: 0;
+  right: 18%;
+  font-size: 23px;
+  border: 3px solid white;
+  border-radius: 0 0 50px 50px;
+  border-top: none;
+  padding: 3px 15px;
+  text-transform: uppercase;
+  background: var(--color-green1);
+  transition: 0.6s ea;
+}
+header .container .header-links .donation-link:hover {
+  background: #959511;
+}
+header .container .header-links nav {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+header .container .header-links nav a {
+  font-weight: 600;
+  transition: 0.6s ease;
+}
+header .container .header-links nav a:hover {
+  color: var(--color-yellow1);
+}
+header .container .header-links nav .active {
+  color: var(--color-yellow1);
+}

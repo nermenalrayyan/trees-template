@@ -103,6 +103,9 @@ img:hover {
 header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/wood.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/wood.jpg);
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
   height: 20vh;
 }
 
@@ -364,7 +367,7 @@ bootstrap 5 responsive screen sizes:
 }
 
 .our-programs .programs-item:nth-of-type(3) ul {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.8rem;
 }
 
 .our-programs .programs-item:nth-of-type(3) ul a {
@@ -439,6 +442,14 @@ bootstrap 5 responsive screen sizes:
   font-size: 15px;
 }
 
+.gallery .gallery-nav .move-pages li:nth-of-type(2) {
+  margin: 0;
+}
+
+.gallery .gallery-nav .move-pages li:nth-of-type(2) a {
+  border: none;
+}
+
 .gallery .gallery-cards ul li {
   width: 23%;
   margin-bottom: 2%;
@@ -489,6 +500,51 @@ bootstrap 5 responsive screen sizes:
 
 .gallery .gallery-info .info .donation-link:hover {
   opacity: 0.8;
+}
+
+.about .about-item {
+  width: 24%;
+}
+
+.about .about-item h5 {
+  text-align: center;
+  padding: 0 30px;
+  height: 185px;
+  width: 95%;
+  border: 13px solid #f3f3f3;
+  border-radius: 50px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--color-white2);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 18%;
+}
+
+.about .about-item:nth-of-type(1) h5 {
+  background-color: #1c4685;
+  -webkit-box-shadow: -4px 5px 5px #1c4685;
+          box-shadow: -4px 5px 5px #1c4685;
+}
+
+.about .about-item:nth-of-type(2) h5 {
+  background-color: #8d242e;
+  -webkit-box-shadow: -4px 5px 5px #8d242e;
+          box-shadow: -4px 5px 5px #8d242e;
+}
+
+.about .about-item:nth-of-type(3) h5 {
+  background-color: #896e1f;
+  -webkit-box-shadow: -4px 5px 5px #896e1f;
+          box-shadow: -4px 5px 5px #896e1f;
+}
+
+.about .about-item:nth-of-type(4) h5 {
+  background-color: #1d7a33;
+  -webkit-box-shadow: -4px 5px 5px #1d7a33;
+          box-shadow: -4px 5px 5px #1d7a33;
 }
 
 footer {

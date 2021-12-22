@@ -45,7 +45,7 @@
   color: var(--color-orange2);
 }
 .our-programs .programs-item:nth-of-type(3) ul {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.8rem;
 }
 .our-programs .programs-item:nth-of-type(3) ul a {
   color: var(--color-white);
@@ -103,6 +103,12 @@
 .gallery .gallery-nav .move-pages i {
   font-size: 15px;
 }
+.gallery .gallery-nav .move-pages li:nth-of-type(2) {
+  margin: 0;
+}
+.gallery .gallery-nav .move-pages li:nth-of-type(2) a {
+  border: none;
+}
 .gallery .gallery-cards ul li {
   width: 23%;
   margin-bottom: 2%;
@@ -143,4 +149,36 @@
 }
 .gallery .gallery-info .info .donation-link:hover {
   opacity: 0.8;
+}
+
+.about .about-item {
+  width: 24%;
+}
+.about .about-item h5 {
+  text-align: center;
+  padding: 0 30px;
+  height: 185px;
+  width: 95%;
+  border: 13px solid #f3f3f3;
+  border-radius: 50px 0 50px 0;
+  display: flex;
+  color: var(--color-white2);
+  align-items: center;
+  margin-bottom: 18%;
+}
+.about .about-item:nth-of-type(1) h5 {
+  background-color: #1c4685;
+  box-shadow: -4px 5px 5px #1c4685;
+}
+.about .about-item:nth-of-type(2) h5 {
+  background-color: #8d242e;
+  box-shadow: -4px 5px 5px #8d242e;
+}
+.about .about-item:nth-of-type(3) h5 {
+  background-color: #896e1f;
+  box-shadow: -4px 5px 5px #896e1f;
+}
+.about .about-item:nth-of-type(4) h5 {
+  background-color: #1d7a33;
+  box-shadow: -4px 5px 5px #1d7a33;
 }
